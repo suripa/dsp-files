@@ -21,13 +21,11 @@ public class ReadFile
         //int i = inputStream.read();
         
         
-        String line = bufferReader.readLine();;
+        String line = bufferReader.readLine();
         while(line != null)
         {
-            System.out.println(line);
-            
+            System.out.println(line);            
             line = bufferReader.readLine();
-        }
-        
+        }        
     }
 }

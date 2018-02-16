@@ -16,8 +16,7 @@ public class ReadFile3
         
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);        
         BufferedReader bufferReader = new BufferedReader(inputStreamReader);
-        
-      
+              
         System.out.println("Digite algo:");
         String line = bufferReader.readLine();
         while(line != null)

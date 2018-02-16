@@ -1,0 +1,2 @@
+Testando
+esta classe com scanner
